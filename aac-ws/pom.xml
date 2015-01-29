@@ -11,5 +11,13 @@
 
     <artifactId>aac-ws</artifactId>
 
+    <dependencies>
+        <!--AAC dependency-->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>aac-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

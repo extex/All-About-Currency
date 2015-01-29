@@ -11,5 +11,13 @@
 
     <artifactId>aac-android</artifactId>
 
+    <dependencies>
+        <!--AAC dependency-->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>aac-ws</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
