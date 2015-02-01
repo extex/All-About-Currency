@@ -1,11 +1,13 @@
 package pl.extex.aac.test;
+import org.springframework.stereotype.Component;
 
 import javax.faces.bean.ManagedBean;
 
 /**
  * Created by Darek on 2015-01-29.
  */
-@ManagedBean(name="test")
+@Component
+//@Scope("session")
 public class Test {
     private String someVariable = "xxx";
 
