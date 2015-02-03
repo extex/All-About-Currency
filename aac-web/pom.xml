@@ -13,12 +13,6 @@
     <packaging>war</packaging>
 
     <dependencies>
-        <!--AAC dependency-->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>aac-ws</artifactId>
-            <version>${project.version}</version>
-        </dependency>
 
         <!--Spring-->
         <dependency>
